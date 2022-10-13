@@ -11,7 +11,7 @@ while True:
         break
         
 sortedNumbers = sorted(numbers)
-n = numbers.size()/2
+n = len(numbers)/2
 
 if len(numbers) == 1:
     print(numbers)
