@@ -13,7 +13,9 @@ while True:
 sortedNumbers = sorted(numbers)
 n = numbers.size()/2
 
-if numbers.size()%2 != 0:
+if len(numbers) = 1:
+    print(numbers)
+ifel len(numbers)%2 != 0:
     print(sortedNumbers[n])
 else:
     print(sortedNumbers[sum(n-1,n)/2])
