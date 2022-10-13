@@ -9,4 +9,13 @@ while True:
         print("Some input could not be converted to a number!")
     else:
         break
-print(numbers)
+        
+sortedNumbers = sorted(numbers)
+n = numbers.size()/2
+
+if !=numbers.size()%2
+print(sortedNumbers[n])
+else 
+print(sortedNumbers[sum(n-1,n)/2])
+
+
