@@ -14,8 +14,8 @@ sortedNumbers = sorted(numbers)
 n = numbers.size()/2
 
 if numbers.size()%2 != 0:
-print(sortedNumbers[n])
+    print(sortedNumbers[n])
 else:
-print(sortedNumbers[sum(n-1,n)/2])
+    print(sortedNumbers[sum(n-1,n)/2])
 
 
