@@ -4,8 +4,7 @@
 while True:
     try:
         print("Enter a list of numbers separated by commas: ")
-       	numbers = sorted([22.0, 23])
-        #numbers = sorted([float(value) for value in input().split(",")])
+        numbers = sorted([float(value) for value in input().split(",")])
         #let n be numberOfElements 
         n = len(numbers)
         if n%2 != 0:
